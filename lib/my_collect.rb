@@ -8,6 +8,3 @@ while i < array.length
 end
 
 end
-
-
-
