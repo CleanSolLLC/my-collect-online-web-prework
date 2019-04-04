@@ -6,6 +6,7 @@ while i < array.length
   yield (array[i])
   i+=1
 end
+array
 end
-
-my_collect(array) {|name| name.upcase!}
+languages = ['ruby', 'javascript', 'python', 'objective-c']
+my_collect {|language| language.upcase}
