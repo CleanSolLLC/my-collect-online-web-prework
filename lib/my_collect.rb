@@ -1,15 +1,15 @@
 def my_collect(array)
-
 i = 0
-
+new_array = []
 while i < array.length
-  yield array[i]
+  new_array.push yield element_in_array
   i+=1
 end
-array
+new_array
 end
 
-
-my_collect(['ruby', 'javascript', 'python', 'objective-c']) do |language|
-language.upcase
+languages = ['english', 'spanish', 'french', 'german']
+my_collect(languages) do |language| 
+  language.upcase
 end
+ 
