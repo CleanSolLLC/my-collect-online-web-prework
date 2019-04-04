@@ -3,10 +3,11 @@ def my_collect(array)
 i = 0
 
 while i < array.length
-  yield (array[i])
+  yield
   i+=1
 end
 array
 end
 
-my_collect(array[i]) {|language| language.upcase}
+
+my_collect(['ruby', 'javascript', 'python', 'objective-c']) {|language| language.upcase}
