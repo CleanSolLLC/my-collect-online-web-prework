@@ -8,5 +8,4 @@ while i < array.length
 end
 array
 end
-languages = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(languages) {|language| p language.upcase}
+
