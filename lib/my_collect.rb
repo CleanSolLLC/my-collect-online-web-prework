@@ -8,3 +8,5 @@ while i < array.length
 end
 array
 end
+
+my_collect(array[i]) {|language| language.upcase}
