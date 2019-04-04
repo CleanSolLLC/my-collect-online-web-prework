@@ -9,7 +9,6 @@ new_array
 end
 
 languages = ['english', 'spanish', 'french', 'german']
-my_collect(languages) do |language| 
+my_collect(languages) do |language|
   language.upcase
 end
- 
